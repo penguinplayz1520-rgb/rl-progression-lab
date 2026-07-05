@@ -325,3 +325,52 @@ nav ul{
     color:#ccc;
     font-size:18px;
 }
+/* ===== RANK ROADMAP ===== */
+
+.roadmap{
+    padding:100px 10%;
+    text-align:center;
+    background:#08111f;
+}
+
+.roadmap h2{
+    font-size:42px;
+    color:#00bfff;
+}
+
+.roadmap-subtitle{
+    color:#bbb;
+    margin:20px auto 50px;
+    max-width:700px;
+}
+
+.rank-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.rank{
+    padding:30px;
+    border-radius:18px;
+    font-size:22px;
+    font-weight:bold;
+    transition:.3s;
+    color:white;
+}
+
+.rank:hover{
+    transform:translateY(-8px) scale(1.03);
+}
+
+.bronze{background:#7a4a27;}
+.silver{background:#9da3a6;}
+.gold{background:#d4af37;}
+.platinum{background:#2ec4b6;}
+.diamond{background:#4ea3ff;}
+.champion{background:#a855f7;}
+.gc{background:#e11d48;}
+.ssl{
+    background:linear-gradient(135deg,#ffd700,#ffffff);
+    color:#111;
+}
