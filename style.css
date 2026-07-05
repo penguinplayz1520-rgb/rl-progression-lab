@@ -447,3 +447,17 @@ nav ul{
     height:280px;
     border:none;
 }
+/* ===== LOGO ===== */
+
+.logo{
+    font-size:32px;
+    font-weight:800;
+    color:white;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.logo span{
+    color:#00bfff;
+    text-shadow:0 0 15px #00bfff;
+}
