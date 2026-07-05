@@ -461,3 +461,50 @@ nav ul{
     color:#00bfff;
     text-shadow:0 0 15px #00bfff;
 }
+/* ===== PROFESSIONAL NAVBAR ===== */
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(8,12,20,.85);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:white;
+    user-select:none;
+}
+
+.logo span{
+    color:#00bfff;
+    text-shadow:0 0 15px #00bfff;
+}
+
+nav ul li a{
+    position:relative;
+    transition:.3s;
+}
+
+nav ul li a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0%;
+    height:2px;
+    background:#00bfff;
+    transition:.3s;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+}
+
+nav ul li a:hover{
+    color:#00bfff;
+}
