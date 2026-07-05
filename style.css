@@ -374,3 +374,45 @@ nav ul{
     background:linear-gradient(135deg,#ffd700,#ffffff);
     color:#111;
 }
+/* ===== TRAINING PACKS ===== */
+
+.training-packs{
+    padding:100px 10%;
+    background:#101827;
+    text-align:center;
+}
+
+.training-packs h2{
+    font-size:42px;
+    color:#00bfff;
+    margin-bottom:50px;
+}
+
+.pack-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.pack-card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+    padding:35px;
+    transition:.3s;
+}
+
+.pack-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(0,191,255,.4);
+}
+
+.pack-card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+}
+
+.pack-card p{
+    color:#ccc;
+    line-height:1.6;
+}
