@@ -646,3 +646,34 @@ nav ul li a:hover{
     text-decoration:none;
     font-weight:bold;
 }
+/* ===== SEARCH BAR ===== */
+
+.search-section{
+    text-align:center;
+    padding:70px 10%;
+    background:#091321;
+}
+
+.search-section h2{
+    color:#00bfff;
+    margin-bottom:25px;
+}
+
+#searchBox{
+    width:100%;
+    max-width:700px;
+    padding:18px;
+    font-size:18px;
+    border:none;
+    border-radius:50px;
+    outline:none;
+    background:#111827;
+    color:white;
+    border:2px solid transparent;
+    transition:.3s;
+}
+
+#searchBox:focus{
+    border-color:#00bfff;
+    box-shadow:0 0 20px rgba(0,191,255,.4);
+}
