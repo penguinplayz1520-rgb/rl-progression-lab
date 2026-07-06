@@ -447,6 +447,30 @@ nav ul{
     height:280px;
     border:none;
 }
+<section class="news">
+
+    <h2>Latest Rocket League News</h2>
+
+    <div class="news-grid">
+
+        <div class="news-card">
+            <h3>🚀 New Season</h3>
+            <p>Stay up to date with the latest Rocket League season, rewards, and competitive changes.</p>
+        </div>
+
+        <div class="news-card">
+            <h3>🏆 RLCS</h3>
+            <p>Follow the biggest Rocket League Championship Series events and top teams.</p>
+        </div>
+
+        <div class="news-card">
+            <h3>⚙️ Patch Notes</h3>
+            <p>Learn about gameplay updates, bug fixes, and new features as they're released.</p>
+        </div>
+
+    </div>
+
+</section>
 /* ===== LOGO ===== */
 
 .logo{
