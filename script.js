@@ -36,3 +36,16 @@ const button = document.querySelector(".btn");
 setInterval(() => {
     button.classList.toggle("pulse");
 }, 1000);
+const searchBox = document.getElementById("searchBox");
+
+searchBox.addEventListener("keyup", function () {
+    const filter = this.value.toLowerCase();
+
+    document.querySelectorAll("section").forEach(section => {
+        if (section.textContent.toLowerCase().includes(filter) || filter === "") {
+            section.style.display = "";
+        } else {
+            section.style.display = "none";
+        }
+    });
+});
