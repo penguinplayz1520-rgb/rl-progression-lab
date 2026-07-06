@@ -597,3 +597,52 @@ nav ul li a:hover{
     color:#ccc;
     line-height:1.6;
 }
+/* ===== TOOLS SECTION ===== */
+
+.tools{
+    padding:100px 10%;
+    background:#08111f;
+    text-align:center;
+}
+
+.tools h2{
+    font-size:42px;
+    color:#00bfff;
+    margin-bottom:50px;
+}
+
+.tools-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.tool-card{
+    background:#111827;
+    border-radius:20px;
+    padding:35px;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.3s;
+}
+
+.tool-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(0,191,255,.35);
+}
+
+.tool-card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+}
+
+.tool-card p{
+    color:#ccc;
+    margin-bottom:20px;
+}
+
+.tool-card a{
+    display:inline-block;
+    color:#00bfff;
+    text-decoration:none;
+    font-weight:bold;
+}
